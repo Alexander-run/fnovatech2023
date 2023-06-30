@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import {Link as Link} from 'react-router-dom';
+import React from 'react';
 import Viewer, { Worker } from '@phuocng/react-pdf-viewer';
 import '@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css';
 // import "./pdfViewer.css";
@@ -107,6 +106,9 @@ export default function PdfViewer(props)  {
         case "sungrowrt" :
             fileUrl=Sungrowrt;
             break;    
+        default:
+            fileUrl=Canadian370;
+            break;
     }
 
     return (
