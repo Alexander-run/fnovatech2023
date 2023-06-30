@@ -8,7 +8,8 @@ import PdfViewer from './components/pdfViewer/pdfViewer';
 import './App.css';
 import 'antd/dist/antd.min.css';
 import Header from './Layout/Header';
-import { BrowserRouter as Router, Redirect, Route, Link as Link} from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Redirect, Route } from 'react-router-dom';
 
 function App() {
   return(

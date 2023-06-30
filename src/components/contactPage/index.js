@@ -1,7 +1,6 @@
-import { Button as Button } from 'antd';
-import React, { useEffect, useState } from 'react';
+import { Button } from 'antd';
+import React, { useState } from 'react';
 import './contactPage.css';
-import axios from 'axios';
 
 export default function Contact()  {
 

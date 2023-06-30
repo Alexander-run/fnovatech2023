@@ -1,8 +1,7 @@
 import {
   Menu
 } from 'antd'
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
-import React, { useState } from 'react'
+import React, { Fragment, useState } from 'react'
 import { useHistory } from 'react-router';
 import './header.css'
 
@@ -18,7 +17,7 @@ const Header = () => {
   };
 
   return (
-    <>
+    <Fragment>
       <h1 class="logo">FNOVATECH</h1>
       <Menu className='menu-container' onClick={onClick} selectedKeys={[current]} mode="horizontal">
         <Menu.Item key='/home'>Home</Menu.Item>
@@ -28,7 +27,7 @@ const Header = () => {
         <Menu.Item key='/about'>About Us</Menu.Item>
         <Menu.Item key='/installation'>Solar Installation</Menu.Item>
       </Menu>
-    </>
+    </Fragment>
   )
 };
 export default Header;

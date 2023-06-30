@@ -1,6 +1,5 @@
 import { Button, Popover } from 'antd';
-import PDF from 'react-pdf-js';
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './homePage.css';
 import { 
@@ -139,25 +138,25 @@ export default function Home()  {
             <div id='home_part4' class='home_section'>
                 <h1>Main Panels We Install</h1>
                 <div class='supplier_list'>
-                    <div><Popover content={panelOpts_Canadian}><img src={Logo_Canadian} /></Popover></div>
-                    <div><Popover content={panelOpts_Jinko}><img src={Logo_Jinko} /></Popover></div>
-                    <div><Popover content={panelOpts_Longi}><img src={Logo_Longi} /></Popover></div>
-                    <div><Popover content={panelOpts_Qcell}><img src={Logo_Qcell} /></Popover></div>
-                    <div><Popover content={panelOpts_Risen}><img src={Logo_Risen} /></Popover></div>
-                    <div><Popover content={panelOpts_Seraphim}><img src={Logo_Seraphim} /></Popover></div>
-                    <div><Popover content={panelOpts_Suntech}><img src={Logo_Suntech} /></Popover></div>
-                    <div><Popover content={panelOpts_Trina}><img src={Logo_Trina} /></Popover></div>
+                    <div><Popover content={panelOpts_Canadian}><img alt='' src={Logo_Canadian} /></Popover></div>
+                    <div><Popover content={panelOpts_Jinko}><img alt='' src={Logo_Jinko} /></Popover></div>
+                    <div><Popover content={panelOpts_Longi}><img alt='' src={Logo_Longi} /></Popover></div>
+                    <div><Popover content={panelOpts_Qcell}><img alt='' src={Logo_Qcell} /></Popover></div>
+                    <div><Popover content={panelOpts_Risen}><img alt='' src={Logo_Risen} /></Popover></div>
+                    <div><Popover content={panelOpts_Seraphim}><img alt='' src={Logo_Seraphim} /></Popover></div>
+                    <div><Popover content={panelOpts_Suntech}><img alt='' src={Logo_Suntech} /></Popover></div>
+                    <div><Popover content={panelOpts_Trina}><img alt='' src={Logo_Trina} /></Popover></div>
                 </div>
             </div> 
             <div id='home_part5' class='home_section'>
                 <h1>Main Inverter We Install</h1>
                 <div class='supplier_list'>
-                    <div><Popover content={inverterOpts_Fronius}><img src={Logo_Fronius} /></Popover></div>
-                    <div><Popover content={inverterOpts_Growatt}><img src={Logo_Growatt} /></Popover></div>
-                    <div><Popover content={inverterOpts_SMA}><img src={Logo_SMA} /></Popover></div>
-                    <div><Popover content={inverterOpts_Solax}><img src={Logo_Solax} /></Popover></div>
-                    <div><Popover content={inverterOpts_Solis}><img src={Logo_Solis} /></Popover></div>
-                    <div><Popover content={inverterOpts_Sungrow}><img src={Logo_Sungrow} /></Popover></div>
+                    <div><Popover content={inverterOpts_Fronius}><img alt='' src={Logo_Fronius} /></Popover></div>
+                    <div><Popover content={inverterOpts_Growatt}><img alt='' src={Logo_Growatt} /></Popover></div>
+                    <div><Popover content={inverterOpts_SMA}><img alt='' src={Logo_SMA} /></Popover></div>
+                    <div><Popover content={inverterOpts_Solax}><img alt='' src={Logo_Solax} /></Popover></div>
+                    <div><Popover content={inverterOpts_Solis}><img alt='' src={Logo_Solis} /></Popover></div>
+                    <div><Popover content={inverterOpts_Sungrow}><img alt='' src={Logo_Sungrow} /></Popover></div>
                 </div>
             </div>   
             <div id='home_part6' class='home_section' >
