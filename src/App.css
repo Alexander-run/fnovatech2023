@@ -1,0 +1,9 @@
+.app{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer{
+  margin: 20px;
+}
